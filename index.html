@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-	<meta http-equiv="content-type" content="text/html; charset=utf-8">		
-	<meta name="viewport" content="width=960">	
-	<title>Привітання</title>
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="icon" type="image/gif/png" href="img/icon.png">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
 </head>
 <body>
-	<div class="lights"><ul class="lightrope">
+    <div class="content">
+    
+    <div class="lights">
+          <ul class="lightrope">
 		<li></li>
 		<li></li>
 		<li></li>
@@ -51,32 +54,22 @@
 		<li></li>
 		<li></li>
 		<li></li>
-	  </ul></div>
-	<div class="content">
-		<div class="mainText"><h1>З Днем Народження!</h1>
-		<h3>День народження настав<br>
-			– тож прийми мої вітання<br>
-			Побажати хочу – мрій!<br>
-			Хай здійсняться всі бажання!<br>
-			Незабутніх вражень віз,<br>
-			Миру, злагоди й натхнення,<br>
-			Сонце гріє хай твій дім<br>
-			Щастя, світла і кохання!</h3>
-		</div>
+	    </ul>
 	</div>
-	<div class="content2">
-		<div class="cake">
-			<div class="plate"></div>
-			<div class="layer layer-bottom"></div>
-			<div class="layer layer-middle"></div>
-			<div class="layer layer-top"></div>
-			<div class="icing"></div>
-			<div class="drip drip1"></div>
-			<div class="drip drip2"></div>
-			<div class="drip drip3"></div>
-			<div class="candle">
-			<div class="flame"></div>
-		</div>
+	<h1 contenteditable data-heading="Piece of Cake">С Днём Рождения!</h1> 
+   	 <script>
+        var h1 = document.querySelector("h1");
+        h1.addEventListener("input", function() {
+          this.setAttribute("data-heading", this.innerText);
+        });
+     </script>
+    <div class="homer">
+		<img class="homer1" src="img/homer1.png" alt="homer1">
+		<img class="homer2" src="img/homer2.png" alt="homer2">
+		<img class="homer4" src="img/homer7.png" alt="homer4">
+		<img class="homer3" src="img/homer3.png" alt="homer3">
+		<img class="homer8" src="img/homer8.png" alt="homer8">
+
 	</div>
 </div>
 </body>
