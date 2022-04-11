@@ -302,7 +302,7 @@ h3{
  }
 }
 
-media(max-width:980px){
+@media(max-width:980px){
 	.lightrope {
 		width: 850px;
 	}
