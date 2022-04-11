@@ -208,7 +208,7 @@ h1:after {
     margin-left: 50px;
   }
 
-  @media(max-width: 515px){
+  @media(max-width: 600px){
     body{
       height: 874px;
     }
